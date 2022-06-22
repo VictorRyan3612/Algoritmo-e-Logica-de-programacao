@@ -16,7 +16,7 @@ while hora < 5:
 
 while hora < 15:
 
-    temp_neg =random.randint(1,3)
+    temp_neg =random.randint(0,2)
     temp += temp_neg
     hora += 1
     print('Hora: ', hora, 'temp = %.2f'%temp)
